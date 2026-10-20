@@ -1,0 +1,7 @@
+   Compiling liminal v0.1.0 (C:\Users\jassm\Desktop\Projects\Liminal)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.16s
+     Running `target\debug\text_probe.exe --device gpu --output artifacts/text-activity-control.json`
+Text diagnostic device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+training: trained full NLL 2.3847285510625555, reset-each-token NLL 2.7196242965239334, untrained NLL 4.986247006659508
+validation: trained full NLL 2.5270641223622556, reset-each-token NLL 2.7050137402602963, untrained NLL 4.986292220135065
+Saved frozen text diagnostic C:\Users\jassm\Desktop\Projects\Liminal\artifacts/text-activity-control.json

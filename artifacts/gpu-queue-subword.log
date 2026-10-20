@@ -1,0 +1,4 @@
+19:03:35 schedule: cosine
+20:15:14 W finished; training subword model
+21:21:15 subword-6000-h256: Final validation: cross-entropy 1.335449 nats/character (4.752273 nats/token, 3.5586 characters/token); per-character perplexity 3.801704
+21:21:24 subword queue finished

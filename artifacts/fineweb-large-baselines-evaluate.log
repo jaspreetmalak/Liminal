@@ -1,0 +1,8 @@
+== width-h256
+Evaluation corpus: 1558/4722810 unknown characters map to U+FFFD.
+Evaluation: 1600 documents, 4722810 characters, sequence-length=64, batch-size=256, precision=f32.
+Evaluation: cross-entropy 2.325994 nats/character; perplexity 10.236855
+== fineweb-language
+Evaluation corpus: 1558/4722810 unknown characters map to U+FFFD.
+Evaluation: 1600 documents, 4722810 characters, sequence-length=64, batch-size=256, precision=f32.
+Evaluation: cross-entropy 2.494515 nats/character; perplexity 12.115861

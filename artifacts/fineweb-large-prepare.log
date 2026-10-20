@@ -1,0 +1,5 @@
+Preparing HuggingFaceFW/fineweb, subset=sample-10BT, offset=0, row budget=16000, character budget=60000000, seed=42.
+Source revision: 9bb295ddab0e05d785b879661af7260fed5140fc
+Prepared 14399 training documents (44399637 characters), 1600 validation documents (4722810 characters); inspected 16000 rows, skipped 1 duplicates and 0 rejected rows.
+Corpus and provenance manifest: data/fineweb-large
+exit=0

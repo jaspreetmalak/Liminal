@@ -1,0 +1,4 @@
+7cf71266320339dc41ac603c98685387f322f4ba7781f4bf68e048bb94d09471  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\understanding-diagnostic.json
+125b6138ef711e342e23fc93ab3dde6fffd196667362958e99f5c3eddf078ada  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\understanding-diagnostic.log
+18a65e6bce99538e3db28ca48063443172325224116da781c08b7c61eada1bfc  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\understanding-final-source-hashes.txt
+d45303d7614aaa1312ac547fba1e82ec5c52e4bde9e35fd43239cb742cb73207  C:\Users\jassm\Desktop\Projects\Liminal\target\debug\understanding_probe.exe

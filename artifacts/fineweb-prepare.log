@@ -1,0 +1,6 @@
+    Finished `release` profile [optimized] target(s) in 0.18s
+     Running `target\release\liminal.exe prepare-fineweb --rows 128 --max-chars 200000 --seed 42`
+Preparing HuggingFaceFW/fineweb, subset=sample-10BT, offset=0, row budget=128, character budget=200000, seed=42.
+Source revision: 9bb295ddab0e05d785b879661af7260fed5140fc
+Prepared 70 training documents (185628 characters), 8 validation documents (14348 characters); inspected 128 rows, skipped 0 duplicates and 50 rejected rows.
+Corpus and provenance manifest: data/fineweb

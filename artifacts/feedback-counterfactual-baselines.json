@@ -1,0 +1,105 @@
+{
+  "baseline_diagnostics": {
+    "kind": "deterministic dataset diagnostics; no learned model, GPU execution, or optimizer updates",
+    "scope_limit": "The correction-only-plus-query rule assumes opposite final entity bits and can solve the paired task without retaining initial assignments. It is not a valid general binding oracle.",
+    "test": {
+      "cases": 256,
+      "predictors": [
+        {
+          "accuracy": 0.5,
+          "correct": 128,
+          "name": "constant_zero",
+          "total": 256
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 128,
+          "name": "constant_one",
+          "total": 256
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 128,
+          "name": "latest_assigned_bit_ignoring_query",
+          "total": 256
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 128,
+          "name": "first_assigned_bit_ignoring_query",
+          "total": 256
+        },
+        {
+          "accuracy": 1.0,
+          "correct": 256,
+          "name": "latest_queried_entity_oracle",
+          "total": 256
+        },
+        {
+          "accuracy": 1.0,
+          "correct": 256,
+          "name": "correction_only_plus_query_opposite_final_bits_oracle",
+          "total": 256
+        }
+      ]
+    },
+    "train": {
+      "cases": 1024,
+      "predictors": [
+        {
+          "accuracy": 0.5,
+          "correct": 512,
+          "name": "constant_zero",
+          "total": 1024
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 512,
+          "name": "constant_one",
+          "total": 1024
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 512,
+          "name": "latest_assigned_bit_ignoring_query",
+          "total": 1024
+        },
+        {
+          "accuracy": 0.5,
+          "correct": 512,
+          "name": "first_assigned_bit_ignoring_query",
+          "total": 1024
+        },
+        {
+          "accuracy": 1.0,
+          "correct": 1024,
+          "name": "latest_queried_entity_oracle",
+          "total": 1024
+        },
+        {
+          "accuracy": 1.0,
+          "correct": 1024,
+          "name": "correction_only_plus_query_opposite_final_bits_oracle",
+          "total": 1024
+        }
+      ]
+    }
+  },
+  "created_unix_seconds": 1792346659,
+  "criterion": "The preregistered model-comparison threshold is unchanged; this artifact adds deterministic task controls",
+  "dataset": {
+    "combined_sha256": "8ff72bbb39c307ff9c78185bddea482de8553a9ecddc034832c0e896e5751039",
+    "hash_encoding": "SHA256 over each ordered ASCII prompt + TAB + answer + LF; combined hash over train hash + LF + test hash + LF",
+    "test_cases": 256,
+    "test_sha256": "08c8e821cd68ffc3029c1eb5d1b3653a77fb9c6938f3b112c905b7315fee54fc",
+    "train_cases": 1024,
+    "train_sha256": "1c0a5a4d8fe5265abc1f1ae441419a6c2b6d290ee9d62008cdd5454ce713b8ba"
+  },
+  "experiment": "feedback_shortcut_baseline_diagnostic",
+  "scope": "Dataset diagnostic only; no model inference, GPU initialization, training, or checkpoint writes",
+  "source": {
+    "kind": "current Rust query-counterfactual generator",
+    "posthoc_diagnostic": false,
+    "seed": 42
+  }
+}

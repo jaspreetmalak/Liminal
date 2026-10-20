@@ -1,0 +1,3 @@
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=32, precision=f64.
+Evaluation: cross-entropy 3.053037 nats/character; perplexity 21.179566

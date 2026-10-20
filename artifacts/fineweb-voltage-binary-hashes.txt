@@ -1,0 +1,2 @@
+77661b0042091a5b08a5a4a0cdfa503ddd2cddbbfec4aba93871bf6f2b48702a  C:\Users\jassm\Desktop\Projects\Liminal\target\release\liminal.exe
+04fe1bcf7534e375b3d251df08170b40b3dff97a2dbcb0338bac2cb930be42ad  C:\Users\jassm\Desktop\Projects\Liminal\target\release\text_probe.exe

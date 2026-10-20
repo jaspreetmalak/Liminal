@@ -1,0 +1,6 @@
+22:27:51 waiting for fineweb-xl
+22:51:24 download done: Prepared 90000 training documents (277187624 characters), 10000 validation documents (31490045 characters); inspected 100000 rows, skipped 0 duplicates and 0 rejected rows.
+22:51:24 training subword-xl-h256
+03:43:15 subword-xl-h256: Final validation: cross-entropy 1.284331 nats/character (4.556392 nats/token, 3.5477 characters/token); per-character perplexity 3.612252
+03:44:45 previous subword model on the new split: Evaluation corpus: 953/31490045 unknown characters map to U+FFFD. Evaluation: cross-entropy 1.343949 nats/character (4.764123 nats/token, 3.5449 characters/token); per-character perplexity 3.834154 
+03:45:02 xl queue finished

@@ -1,0 +1,16 @@
+16:48:57 waiting for stage 1 baseline
+17:52:07 baseline done: 1.668781
+17:52:18 deferred control
+17:52:18 training stage1-cosine-h256
+19:03:16 stage1-cosine-h256 done: 1.639160
+19:03:16 schedule for W: cosine (constant 1.668781, cosine 1.639160)
+19:03:16 training stage1-w128-h256
+20:15:00 stage1-w128-h256 done: 1.714331
+20:15:20 eval stage1-large-h256 reset=64: Evaluation: cross-entropy 1.668781 nats/character; perplexity 5.305697
+20:16:15 eval stage1-large-h256 reset=128: Evaluation: cross-entropy 1.651477 nats/character; perplexity 5.214677
+20:17:15 eval stage1-cosine-h256 reset=64: Evaluation: cross-entropy 1.639160 nats/character; perplexity 5.150842
+20:18:14 eval stage1-cosine-h256 reset=128: Evaluation: cross-entropy 1.619398 nats/character; perplexity 5.050049
+20:19:09 eval stage1-w128-h256 reset=64: Evaluation: cross-entropy 1.732808 nats/character; perplexity 5.656516
+20:20:19 eval stage1-w128-h256 reset=128: Evaluation: cross-entropy 1.714331 nats/character; perplexity 5.552957
+20:20:19 rerunning deferred control
+21:35:55 queue finished

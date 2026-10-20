@@ -1,0 +1,10 @@
+Validation split: 4/14348 unknown characters map to U+FFFD.
+Corpus: 70 training documents (185628 characters), 8 validation documents (14348 characters), 148 vocabulary entries.
+Training: hidden=48, sequence-length=32, steps=500, learning-rate=0.003, gradient-clip=1, seed=42, precision=f64.
+Model: 16708 parameters; decay=0.9, threshold=1.0, surrogate-width=1.0.
+Initial training: cross-entropy 5.006986 nats/character; perplexity 149.453611
+Final training: cross-entropy 3.158109 nats/character; perplexity 23.526071
+Train-frequency validation unigram (additive-one smoothing): cross-entropy 3.213943 nats/character; perplexity 24.876995
+Initial validation: cross-entropy 5.010968 nats/character; perplexity 150.049900
+Final validation: cross-entropy 3.053037 nats/character; perplexity 21.179566
+Saved model after 500 updates to artifacts/liminal.bin.

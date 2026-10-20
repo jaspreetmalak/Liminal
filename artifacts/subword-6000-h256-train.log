@@ -1,0 +1,127 @@
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Validation split: 318/4722810 unknown characters map to U+FFFD.
+Corpus: 14399 training documents (44399637 characters, 12534196 tokens), 1600 validation documents (4722810 characters, 1327967 tokens), 7868 vocabulary entries (1868 characters + 6000 merges).
+Training: hidden=256, sequence-length=64, batch-size=64, steps=5650, learning-rate=0.003, lr-schedule=cosine, gradient-clip=1, voltage-penalty=0, voltage-band-widths=3, seed=42, precision=f32.
+Model: 8393660 parameters; feedback=both, decays=learned per neuron, threshold=1.0, surrogate-width=1.0.
+Voltage penalty disabled: raw/weighted penalty logs are zero, not measured activity.
+step 1/5650: batch CE 9.000980, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 9.000980, gradient norm 0.410197, targets 4096, learning rate 0.003000
+step 50/5650: batch CE 7.118777, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 7.118777, gradient norm 0.305325, targets 204800, learning rate 0.002999
+step 100/5650: batch CE 6.769632, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 6.769632, gradient norm 0.299206, targets 409600, learning rate 0.002998
+step 150/5650: batch CE 6.363080, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 6.363080, gradient norm 0.269480, targets 614400, learning rate 0.002995
+step 200/5650: batch CE 6.108349, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 6.108349, gradient norm 0.276051, targets 819200, learning rate 0.002992
+step 250/5650: batch CE 5.994335, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.994335, gradient norm 0.312556, targets 1024000, learning rate 0.002987
+step 300/5650: batch CE 5.966532, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.966532, gradient norm 0.295316, targets 1228800, learning rate 0.002981
+step 350/5650: batch CE 5.705854, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.705854, gradient norm 0.282490, targets 1433600, learning rate 0.002975
+step 400/5650: batch CE 5.565574, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.565574, gradient norm 0.281543, targets 1638400, learning rate 0.002967
+step 450/5650: batch CE 5.541359, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.541359, gradient norm 0.216166, targets 1843200, learning rate 0.002958
+step 500/5650: batch CE 5.447706, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.447706, gradient norm 0.233161, targets 2048000, learning rate 0.002948
+step 550/5650: batch CE 5.418552, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.418552, gradient norm 0.208303, targets 2252800, learning rate 0.002938
+step 600/5650: batch CE 5.401337, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.401337, gradient norm 0.219571, targets 2457600, learning rate 0.002926
+step 650/5650: batch CE 5.274053, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.274053, gradient norm 0.212968, targets 2662400, learning rate 0.002913
+step 700/5650: batch CE 5.245375, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.245375, gradient norm 0.214088, targets 2867200, learning rate 0.002899
+step 750/5650: batch CE 5.252873, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.252873, gradient norm 0.214106, targets 3072000, learning rate 0.002885
+step 800/5650: batch CE 5.119763, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.119763, gradient norm 0.208251, targets 3276800, learning rate 0.002869
+step 850/5650: batch CE 5.166504, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.166504, gradient norm 0.213941, targets 3481600, learning rate 0.002852
+step 900/5650: batch CE 5.165271, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.165271, gradient norm 0.222564, targets 3686400, learning rate 0.002835
+step 950/5650: batch CE 5.030282, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.030282, gradient norm 0.200356, targets 3891200, learning rate 0.002816
+step 1000/5650: batch CE 5.109175, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.109175, gradient norm 0.212602, targets 4096000, learning rate 0.002797
+step 1050/5650: batch CE 4.998677, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.998677, gradient norm 0.219666, targets 4300800, learning rate 0.002777
+step 1100/5650: batch CE 4.963032, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.963032, gradient norm 0.208325, targets 4505600, learning rate 0.002756
+step 1150/5650: batch CE 5.007606, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.007606, gradient norm 0.211711, targets 4710400, learning rate 0.002734
+step 1200/5650: batch CE 5.011535, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.011535, gradient norm 0.212843, targets 4915200, learning rate 0.002711
+step 1250/5650: batch CE 5.022758, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.022758, gradient norm 0.203976, targets 5120000, learning rate 0.002687
+step 1300/5650: batch CE 5.059082, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.059082, gradient norm 0.212272, targets 5324800, learning rate 0.002663
+step 1350/5650: batch CE 5.023260, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.023260, gradient norm 0.210220, targets 5529600, learning rate 0.002638
+step 1400/5650: batch CE 5.011912, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.011912, gradient norm 0.212584, targets 5734400, learning rate 0.002612
+step 1450/5650: batch CE 4.990290, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.990290, gradient norm 0.217938, targets 5939200, learning rate 0.002585
+step 1500/5650: batch CE 4.994391, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.994391, gradient norm 0.207066, targets 6144000, learning rate 0.002557
+step 1550/5650: batch CE 4.995200, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.995200, gradient norm 0.211795, targets 6348800, learning rate 0.002529
+step 1600/5650: batch CE 4.966919, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.966919, gradient norm 0.207541, targets 6553600, learning rate 0.002500
+step 1650/5650: batch CE 4.846201, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.846201, gradient norm 0.208973, targets 6758400, learning rate 0.002471
+step 1700/5650: batch CE 4.933690, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.933690, gradient norm 0.211201, targets 6963200, learning rate 0.002441
+step 1750/5650: batch CE 4.886997, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.886997, gradient norm 0.228772, targets 7168000, learning rate 0.002410
+step 1800/5650: batch CE 4.897719, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.897719, gradient norm 0.218442, targets 7372800, learning rate 0.002379
+step 1850/5650: batch CE 4.833296, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.833296, gradient norm 0.213386, targets 7577600, learning rate 0.002347
+step 1900/5650: batch CE 4.915389, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.915389, gradient norm 0.212795, targets 7782400, learning rate 0.002315
+step 1950/5650: batch CE 4.840844, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.840844, gradient norm 0.218800, targets 7987200, learning rate 0.002282
+step 2000/5650: batch CE 4.741141, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.741141, gradient norm 0.212684, targets 8192000, learning rate 0.002248
+step 2050/5650: batch CE 4.828624, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.828624, gradient norm 0.220494, targets 8396800, learning rate 0.002214
+step 2100/5650: batch CE 4.819108, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.819108, gradient norm 0.210595, targets 8601600, learning rate 0.002180
+step 2150/5650: batch CE 4.799788, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.799788, gradient norm 0.211911, targets 8806400, learning rate 0.002145
+step 2200/5650: batch CE 4.835523, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.835523, gradient norm 0.215247, targets 9011200, learning rate 0.002110
+step 2250/5650: batch CE 4.744324, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.744324, gradient norm 0.219002, targets 9216000, learning rate 0.002075
+step 2300/5650: batch CE 4.878540, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.878540, gradient norm 0.216342, targets 9420800, learning rate 0.002039
+step 2350/5650: batch CE 4.774379, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.774379, gradient norm 0.217571, targets 9625600, learning rate 0.002003
+step 2400/5650: batch CE 4.708652, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.708652, gradient norm 0.210166, targets 9830400, learning rate 0.001966
+step 2450/5650: batch CE 4.811494, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.811494, gradient norm 0.214681, targets 10035200, learning rate 0.001930
+step 2500/5650: batch CE 4.812860, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.812860, gradient norm 0.218837, targets 10240000, learning rate 0.001893
+step 2550/5650: batch CE 4.692273, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.692273, gradient norm 0.212895, targets 10444800, learning rate 0.001856
+step 2600/5650: batch CE 4.745499, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.745499, gradient norm 0.232272, targets 10649600, learning rate 0.001819
+step 2650/5650: batch CE 4.777329, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.777329, gradient norm 0.222153, targets 10854400, learning rate 0.001782
+step 2700/5650: batch CE 4.753541, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.753541, gradient norm 0.220882, targets 11059200, learning rate 0.001744
+step 2750/5650: batch CE 4.719363, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.719363, gradient norm 0.226896, targets 11264000, learning rate 0.001707
+step 2800/5650: batch CE 4.739754, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.739754, gradient norm 0.214660, targets 11468800, learning rate 0.001669
+step 2850/5650: batch CE 4.769189, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.769189, gradient norm 0.219432, targets 11673600, learning rate 0.001632
+step 2900/5650: batch CE 4.689196, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.689196, gradient norm 0.220528, targets 11878400, learning rate 0.001594
+step 2950/5650: batch CE 4.729734, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.729734, gradient norm 0.214981, targets 12083200, learning rate 0.001557
+step 3000/5650: batch CE 4.729661, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.729661, gradient norm 0.213620, targets 12288000, learning rate 0.001519
+step 3050/5650: batch CE 4.626313, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.626313, gradient norm 0.234881, targets 12492800, learning rate 0.001482
+step 3100/5650: batch CE 4.765711, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.765711, gradient norm 0.230577, targets 12697600, learning rate 0.001445
+step 3150/5650: batch CE 4.773507, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.773507, gradient norm 0.219827, targets 12902400, learning rate 0.001408
+step 3200/5650: batch CE 4.688656, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.688656, gradient norm 0.219207, targets 13107200, learning rate 0.001371
+step 3250/5650: batch CE 4.681349, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.681349, gradient norm 0.220206, targets 13312000, learning rate 0.001334
+step 3300/5650: batch CE 4.691350, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.691350, gradient norm 0.220703, targets 13516800, learning rate 0.001298
+step 3350/5650: batch CE 4.646829, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.646829, gradient norm 0.222481, targets 13721600, learning rate 0.001262
+step 3400/5650: batch CE 4.815418, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.815418, gradient norm 0.219914, targets 13926400, learning rate 0.001226
+step 3450/5650: batch CE 4.652859, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.652859, gradient norm 0.232187, targets 14131200, learning rate 0.001191
+step 3500/5650: batch CE 4.647472, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.647472, gradient norm 0.222284, targets 14336000, learning rate 0.001155
+step 3550/5650: batch CE 4.683079, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.683079, gradient norm 0.229075, targets 14540800, learning rate 0.001121
+step 3600/5650: batch CE 4.702421, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.702421, gradient norm 0.223800, targets 14745600, learning rate 0.001086
+step 3650/5650: batch CE 4.720722, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.720722, gradient norm 0.231448, targets 14950400, learning rate 0.001052
+step 3700/5650: batch CE 4.605452, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.605452, gradient norm 0.227102, targets 15155200, learning rate 0.001019
+step 3750/5650: batch CE 4.593556, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.593556, gradient norm 0.215802, targets 15360000, learning rate 0.000986
+step 3800/5650: batch CE 4.564974, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.564974, gradient norm 0.225434, targets 15564800, learning rate 0.000954
+step 3850/5650: batch CE 4.494678, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.494678, gradient norm 0.218526, targets 15769600, learning rate 0.000922
+step 3900/5650: batch CE 4.670187, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.670187, gradient norm 0.224305, targets 15974400, learning rate 0.000890
+step 3950/5650: batch CE 4.540058, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.540058, gradient norm 0.217498, targets 16179200, learning rate 0.000860
+step 4000/5650: batch CE 4.609274, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.609274, gradient norm 0.233487, targets 16384000, learning rate 0.000830
+step 4050/5650: batch CE 4.665553, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.665553, gradient norm 0.225364, targets 16588800, learning rate 0.000800
+step 4100/5650: batch CE 4.505978, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.505978, gradient norm 0.232281, targets 16793600, learning rate 0.000771
+step 4150/5650: batch CE 4.525266, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.525266, gradient norm 0.232955, targets 16998400, learning rate 0.000743
+step 4200/5650: batch CE 4.633986, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.633986, gradient norm 0.235480, targets 17203200, learning rate 0.000716
+step 4250/5650: batch CE 4.630431, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.630431, gradient norm 0.224147, targets 17408000, learning rate 0.000689
+step 4300/5650: batch CE 4.599594, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.599594, gradient norm 0.231207, targets 17612800, learning rate 0.000663
+step 4350/5650: batch CE 4.610553, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.610553, gradient norm 0.234903, targets 17817600, learning rate 0.000638
+step 4400/5650: batch CE 4.655056, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.655056, gradient norm 0.236420, targets 18022400, learning rate 0.000613
+step 4450/5650: batch CE 4.775319, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.775319, gradient norm 0.229715, targets 18227200, learning rate 0.000590
+step 4500/5650: batch CE 4.559472, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.559472, gradient norm 0.232805, targets 18432000, learning rate 0.000567
+step 4550/5650: batch CE 4.613018, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.613018, gradient norm 0.234544, targets 18636800, learning rate 0.000545
+step 4600/5650: batch CE 4.558590, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.558590, gradient norm 0.220440, targets 18841600, learning rate 0.000524
+step 4650/5650: batch CE 4.588604, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.588604, gradient norm 0.233037, targets 19046400, learning rate 0.000503
+step 4700/5650: batch CE 4.567002, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.567002, gradient norm 0.231123, targets 19251200, learning rate 0.000484
+step 4750/5650: batch CE 4.516918, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.516918, gradient norm 0.231645, targets 19456000, learning rate 0.000466
+step 4800/5650: batch CE 4.648198, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.648198, gradient norm 0.233026, targets 19660800, learning rate 0.000448
+step 4850/5650: batch CE 4.574430, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.574430, gradient norm 0.232719, targets 19865600, learning rate 0.000431
+step 4900/5650: batch CE 4.518764, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.518764, gradient norm 0.230737, targets 20070400, learning rate 0.000416
+step 4950/5650: batch CE 4.627473, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.627473, gradient norm 0.231936, targets 20275200, learning rate 0.000401
+step 5000/5650: batch CE 4.486385, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.486385, gradient norm 0.227359, targets 20480000, learning rate 0.000387
+step 5050/5650: batch CE 4.615907, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.615907, gradient norm 0.235823, targets 20684800, learning rate 0.000374
+step 5100/5650: batch CE 4.582402, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.582402, gradient norm 0.231152, targets 20889600, learning rate 0.000363
+step 5150/5650: batch CE 4.496601, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.496601, gradient norm 0.225515, targets 21094400, learning rate 0.000352
+step 5200/5650: batch CE 4.526103, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.526103, gradient norm 0.234796, targets 21299200, learning rate 0.000342
+step 5250/5650: batch CE 4.558327, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.558327, gradient norm 0.228124, targets 21504000, learning rate 0.000333
+step 5300/5650: batch CE 4.595307, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.595307, gradient norm 0.236576, targets 21708800, learning rate 0.000325
+step 5350/5650: batch CE 4.566519, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.566519, gradient norm 0.235345, targets 21913600, learning rate 0.000319
+step 5400/5650: batch CE 4.634480, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.634480, gradient norm 0.230470, targets 22118400, learning rate 0.000313
+step 5450/5650: batch CE 4.623871, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.623871, gradient norm 0.235685, targets 22323200, learning rate 0.000308
+step 5500/5650: batch CE 4.654000, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.654000, gradient norm 0.233589, targets 22528000, learning rate 0.000305
+step 5550/5650: batch CE 4.498846, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.498846, gradient norm 0.232999, targets 22732800, learning rate 0.000302
+step 5600/5650: batch CE 4.630004, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.630004, gradient norm 0.235176, targets 22937600, learning rate 0.000301
+step 5650/5650: batch CE 4.640034, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 4.640034, gradient norm 0.242484, targets 23142400, learning rate 0.000300
+Initial training: cross-entropy 2.541247 nats/character (9.006881 nats/token, 3.5443 characters/token); per-character perplexity 12.695486
+Final training: cross-entropy 1.289584 nats/character (4.570644 nats/token, 3.5443 characters/token); per-character perplexity 3.631277
+Train-frequency validation unigram (additive-one smoothing): cross-entropy 2.006014 nats/character (7.138515 nats/token, 3.5586 characters/token); per-character perplexity 7.433628
+Initial validation: cross-entropy 2.531196 nats/character (9.007406 nats/token, 3.5586 characters/token); per-character perplexity 12.568535
+Final validation: cross-entropy 1.335449 nats/character (4.752273 nats/token, 3.5586 characters/token); per-character perplexity 3.801704
+Saved model after 5650 updates and 23142400 non-padding training targets to artifacts/subword-6000-h256.bin.
+exit=0

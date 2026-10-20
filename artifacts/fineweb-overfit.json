@@ -1,0 +1,367 @@
+{
+  "checkpoint": {
+    "contains": "one model, vocabulary, configuration and feedback mode; optimizer/sampler state not saved",
+    "path": "C:\\Users\\jassm\\Desktop\\Projects\\Liminal\\artifacts/fineweb-overfit.bin",
+    "sha256": "6b115e1cceb2934c9a6581c0ae5bacfe30e7f210617fc6eade5e5e1568c1f630"
+  },
+  "configuration": {
+    "batch_size": 1,
+    "context_decay": 0.9,
+    "feedback_mode": "both",
+    "global_gradient_clip": 1.0,
+    "hidden_size": 64,
+    "learning_rate": 0.003,
+    "loss": "mean full-vocabulary cross entropy over every within-passage adjacent character pair",
+    "maximum_steps": 800,
+    "membrane_decay": 0.9,
+    "model_seed": 42,
+    "optimizer": {
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "epsilon": 1e-8,
+      "name": "Adam",
+      "weight_decay": 0
+    },
+    "reset": "all states zero for every full passage update and evaluation window",
+    "sequence_length": 37,
+    "surrogate_width": 1.0,
+    "threshold": 1.0,
+    "trace_decay": 0.8,
+    "training_check_interval": 25,
+    "training_stop": "100% teacher-forced next-character accuracy and NLL<=0.05; train-only checks every25 and cap",
+    "validation_batch_size": 16,
+    "validation_window_length": 37
+  },
+  "created_unix_seconds": 1792349091,
+  "data": {
+    "manifest_sha256": "4b0011a6961e86e6301e0ad849c4ef096bf74dfaeff23023bffce9172c182722",
+    "source": {
+      "config": "sample-10BT",
+      "dataset": "HuggingFaceFW/fineweb",
+      "dataset_card": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+      "endpoint": "https://datasets-server.huggingface.co/rows",
+      "license": "odc-by",
+      "license_notes": "Original web content may have additional rights; see the official dataset card.",
+      "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "revision_header": "X-Revision",
+      "revision_semantics": "Current dataset revision observed on every page; /rows does not support requesting a historical revision.",
+      "split": "train"
+    },
+    "train_file_sha256": "ad0b069c93c70dc6fc52000edefbd272a574ae77dd7706ab763eff702ee2633a",
+    "training_documents": 70,
+    "training_passage": {
+      "date": "2013-05-18T05:48:59Z",
+      "document_byte_offset": 95,
+      "document_character_offset": 95,
+      "document_text_utf8_sha256": "f0e0dcc2aa1919b4b26c62f7f9349c770deac4c6c95c3cc44a2bf2b4704626d9",
+      "dump": "CC-MAIN-2013-20",
+      "file": "C:\\Users\\jassm\\Desktop\\Projects\\Liminal\\data/fineweb\\train.jsonl",
+      "file_path": "s3://commoncrawl/crawl-data/CC-MAIN-2013-20/segments/1368696381249/warc/CC-MAIN-20130516092621-00000-ip-10-60-113-184.ec2.internal.warc.gz",
+      "id": "<urn:uuid:39147604-bfbe-4ed5-b19c-54105f8ae8a7>",
+      "jsonl_line_index": 0,
+      "jsonl_row_utf8_sha256_excluding_line_ending": "74792501dad89ebea652ec9d0912daf502d16cf916f3eef58f487debb8f5fa4d",
+      "language": "en",
+      "passage": "Don't care about Chloe/Taniel/Jen-Jen.",
+      "passage_characters": 38,
+      "passage_utf8_sha256": "c12578c6e0015c9a703687d54a3432edea2b073dffd3c8a414611ec76b0f83ce",
+      "selection": "first complete <=128-character sentence, skipping pipe-header lines; unchanged substring",
+      "source_row_index": 0,
+      "url": "http://daytimeroyaltyonline.com/single/?p=8906650&t=8780053"
+    },
+    "validation_characters": 14348,
+    "validation_documents": 8,
+    "validation_excerpt": {
+      "date": "2013-05-18T06:43:03Z",
+      "document_byte_offset": 107,
+      "document_character_offset": 107,
+      "document_text_utf8_sha256": "1b244f26c854cb012a0b81274f5b85e3393d5394b56ffc0ca8d7437dc4c7f95e",
+      "dump": "CC-MAIN-2013-20",
+      "file": "C:\\Users\\jassm\\Desktop\\Projects\\Liminal\\data/fineweb\\validation.jsonl",
+      "file_path": "s3://commoncrawl/crawl-data/CC-MAIN-2013-20/segments/1368696381249/warc/CC-MAIN-20130516092621-00000-ip-10-60-113-184.ec2.internal.warc.gz",
+      "id": "<urn:uuid:ba819eb7-e6e6-415a-87f4-0347b6a4f017>",
+      "jsonl_line_index": 0,
+      "jsonl_row_utf8_sha256_excluding_line_ending": "ce17f4e577c1d4391a3c1cc69606afe28b11cc47f667de863631a4c64a6f6287",
+      "language": "en",
+      "passage": "If you have set yourself on fire, do not run.",
+      "passage_characters": 45,
+      "passage_utf8_sha256": "14dca27ad1c42b704699b15911c61df226a395900ac9c7968349276b30564fcc",
+      "selection": "first complete <=128-character sentence, skipping pipe-header lines; unchanged substring",
+      "source_row_index": 1,
+      "url": "http://endogenousretrovirus.blogspot.com/2007/11/if-you-have-set-yourself-on-fire-do-not.html?showComment=1196270520000"
+    },
+    "validation_file_sha256": "3ca429b3909a50a591286cb27f9b650527e2bd2846ffb22e5c460b20ad352866",
+    "validation_unknown_characters": 4,
+    "validation_unknown_fraction": 0.00027878449958182325,
+    "vocab_size": 148,
+    "vocabulary": "�\n !\"#$%&'()*+,-./0123456789:;=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz|~£©®°·»¾ßàáéúıřḷ–—‘’“”•…″€がのッフルワ傳價動即告在已廣撤擬方書未東漲用瘋股臉言語賺身通驚",
+    "vocabulary_source": "all training documents only; parameter updates use selected passage only",
+    "whole_document_splits_disjoint": true
+  },
+  "device": "Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>",
+  "device_identity": "Some(DeviceIdentity { name: \"AMD Radeon RX 9060 XT\", fingerprint: \"spirv_4098_30096\", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })",
+  "existing_language_checkpoint_updated": false,
+  "experiment": "genuine_fineweb_training_passage_overfit",
+  "final_training": {
+    "answer_nll_nats": 0.041561007499694824,
+    "correct_targets": 37,
+    "next_character_accuracy": 1.0,
+    "perplexity": 1.0424367563716785,
+    "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+    "targets": 37,
+    "wall_seconds_including_host_readbacks": 0.109002
+  },
+  "final_validation_nll_nats": 8.318885498066827,
+  "greedy_training_first_character": {
+    "completion": "on't care about Chloe/Taniel/Jen-Jen.",
+    "completion_characters": 37,
+    "expected_completion": "on't care about Chloe/Taniel/Jen-Jen.",
+    "full_match": true,
+    "generated_text": "Don't care about Chloe/Taniel/Jen-Jen.",
+    "generation_length": "fixed to the known remaining passage length; no EOS or stopping behavior is learned",
+    "position_match_fraction": 1.0,
+    "prompt": "D",
+    "prompt_characters": 1,
+    "temperature": 0
+  },
+  "greedy_training_prefix_eight": {
+    "completion": "re about Chloe/Taniel/Jen-Jen.",
+    "completion_characters": 30,
+    "expected_completion": "re about Chloe/Taniel/Jen-Jen.",
+    "full_match": true,
+    "generated_text": "Don't care about Chloe/Taniel/Jen-Jen.",
+    "generation_length": "fixed to the known remaining passage length; no EOS or stopping behavior is learned",
+    "position_match_fraction": 1.0,
+    "prompt": "Don't ca",
+    "prompt_characters": 8,
+    "temperature": 0
+  },
+  "greedy_validation_prefix_eight": {
+    "completion": "ent aboe/Taniel/Jen-Jen.en..e........",
+    "completion_characters": 37,
+    "expected_completion": "ave set yourself on fire, do not run.",
+    "full_match": false,
+    "generated_text": "If you hent aboe/Taniel/Jen-Jen.en..e........",
+    "generation_length": "fixed to the known remaining passage length; no EOS or stopping behavior is learned",
+    "position_match_fraction": 0.13513513513513514,
+    "prompt": "If you h",
+    "prompt_characters": 8,
+    "temperature": 0
+  },
+  "initial_parameters_f32_le_sha256": "e1037c3cc094d46d310911e0141d00f09e0669af3300203d8c8fd57537892774",
+  "initial_training": {
+    "answer_nll_nats": 4.979500770568848,
+    "correct_targets": 1,
+    "next_character_accuracy": 0.02702702702702703,
+    "perplexity": 145.40177468608533,
+    "predicted_next_characters": "ßz驚方pUapO[ßW驚が“N[p$w,ßG+已»,撤N^0r漲撤•1p",
+    "targets": 37,
+    "wall_seconds_including_host_readbacks": 0.4739218
+  },
+  "initial_validation_nll_nats": 4.995702713736264,
+  "parameters": 49172,
+  "passage_target_unigram_validation_nll_nats": 4.308366295710238,
+  "precision": "f32",
+  "scope": "Exact training-passage memorization diagnostic; validation is descriptive, not a stopping criterion or fluency test",
+  "training_checks": [
+    {
+      "post_update_training": {
+        "answer_nll_nats": 2.3868680000305176,
+        "correct_targets": 10,
+        "next_character_accuracy": 0.2702702702702703,
+        "perplexity": 10.879366352050054,
+        "predicted_next_characters": " n t aaa a a  eeeeeeeneeeneeeeeneeene",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.2165029
+      },
+      "pre_update_batch_nll": 2.3913002014160156,
+      "preclip_global_gradient_norm": 0.6214995980262756,
+      "step": 25,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 1.592934489250183,
+        "correct_targets": 25,
+        "next_character_accuracy": 0.6756756756756757,
+        "perplexity": 4.918160061158122,
+        "predicted_next_characters": "'n't car  aaout ahooeeeanneneJennJenn",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1079661
+      },
+      "pre_update_batch_nll": 1.6055331230163574,
+      "preclip_global_gradient_norm": 0.7298397421836853,
+      "step": 50,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 1.0141850709915161,
+        "correct_targets": 35,
+        "next_character_accuracy": 0.9459459459459459,
+        "perplexity": 2.757115628109398,
+        "predicted_next_characters": "on't car  about Chloe/Taniel/Jen-Jenn",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1120468
+      },
+      "pre_update_batch_nll": 1.022356629371643,
+      "preclip_global_gradient_norm": 0.8794583082199097,
+      "step": 75,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.6666462421417236,
+        "correct_targets": 36,
+        "next_character_accuracy": 0.972972972972973,
+        "perplexity": 1.9476942599184288,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen.Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1352109
+      },
+      "pre_update_batch_nll": 0.633415699005127,
+      "preclip_global_gradient_norm": 1.0022848844528198,
+      "step": 100,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.39462852478027344,
+        "correct_targets": 36,
+        "next_character_accuracy": 0.972972972972973,
+        "perplexity": 1.4838328813826889,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen-",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1105943
+      },
+      "pre_update_batch_nll": 0.3949054181575775,
+      "preclip_global_gradient_norm": 0.9419938325881958,
+      "step": 125,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.23293262720108032,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.2622964320186645,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1029869
+      },
+      "pre_update_batch_nll": 0.24251031875610352,
+      "preclip_global_gradient_norm": 0.6270822882652283,
+      "step": 150,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.16107012331485748,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.1747673445059925,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.0939015
+      },
+      "pre_update_batch_nll": 0.1650833934545517,
+      "preclip_global_gradient_norm": 0.3973163664340973,
+      "step": 175,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.1177394762635231,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.1249509967503157,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1134529
+      },
+      "pre_update_batch_nll": 0.12564942240715027,
+      "preclip_global_gradient_norm": 0.5555214285850525,
+      "step": 200,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.0880005806684494,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.0919887561114312,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1075012
+      },
+      "pre_update_batch_nll": 0.10171199589967728,
+      "preclip_global_gradient_norm": 0.29691189527511597,
+      "step": 225,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.07200336456298828,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.074658959815492,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.106075
+      },
+      "pre_update_batch_nll": 0.07924465090036392,
+      "preclip_global_gradient_norm": 0.3807644844055176,
+      "step": 250,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.052886392921209335,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.05430986125186,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1074749
+      },
+      "pre_update_batch_nll": 0.059492502361536026,
+      "preclip_global_gradient_norm": 0.18811480700969696,
+      "step": 275,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.05053635686635971,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.0518351040881542,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1078578
+      },
+      "pre_update_batch_nll": 0.04897761344909668,
+      "preclip_global_gradient_norm": 0.22529445588588715,
+      "step": 300,
+      "training_fit_met": false
+    },
+    {
+      "post_update_training": {
+        "answer_nll_nats": 0.041561007499694824,
+        "correct_targets": 37,
+        "next_character_accuracy": 1.0,
+        "perplexity": 1.0424367563716785,
+        "predicted_next_characters": "on't care about Chloe/Taniel/Jen-Jen.",
+        "targets": 37,
+        "wall_seconds_including_host_readbacks": 0.1072483
+      },
+      "pre_update_batch_nll": 0.039686545729637146,
+      "preclip_global_gradient_norm": 0.13386744260787964,
+      "step": 325,
+      "training_fit_met": true
+    }
+  ],
+  "training_fit_met": true,
+  "training_prediction_targets": 12025,
+  "training_wall_seconds_including_training_checks_and_final_parameter_readback": 20.8124502,
+  "unigram_fit": "additive-one smoothing over V entries; counts only selected training passage targets, excluding its first character",
+  "updates": 325
+}

@@ -1,0 +1,33 @@
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[The ]
+The the and the plers the to pol the to the the and the and the and the the and the and the are the shat the the and the there the and the whe the pare the the the and the and the be the and the preat the re the tor the the the are thes the to the the the the 
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[Language allows us to ]
+Language allows us to the ard the and the and the the the to pare the the ath wer the the and the reat the reat and the the and the and the rat the ale the and the and the pre to the the the the the the ale the the the and the the the reat the the to the the wark the the and th
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[When I feel uncertain, ]
+When I feel uncertain, shat and the patin the the the the ples and the and the preath ath for the the are the to the are to the the the are the and and the the the the where the to the preating ther the the and the preat the the the real the ther and the and the and the preres a
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[Once upon a time, ]
+Once upon a time, 201012) - Machere Marken Cork March (May 16, 2012) - Google Ses Marce Con Maring Macin Maring (May 16, 2012) - Google Malles (May 1012) - Fackere Marke Marcher (May 112) - Facke Morke Proging the the the the pres the the the preat and ther and the sthe and
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[User: Hi Liminal! How are you today? Assistant: ]
+User: Hi Liminal! How are you today? Assistant: Sthe and the the te the and the the the the and the ath wark ghe the for the and the and the there the the and the tere the and the and the are the and the prers fo the rered the the the the and the are the and the tare and the and the the the the are the 
+Condition=voltage-control temperature=0 seed=42 tokens=256 prompt=[User: I had a long day. How was yours? Assistant: ]
+User: I had a long day. How was yours? Assistant: Sexperat (March 16, 2012) - Googl 15 sin the pers and the the preal the she the the the for the the and the and the to the the the rere the the pate the the preat and the there the and the and the the patere the the and the the the and the the the the and 
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[The ]
+The pame the of-are Lacls in asntissemen as radlid ante be ther ave cowistle the the teer, to the ras tes tor and andtee thy thacabe pretavet cheston inling, thor. -ewsinge le sepat wion wat ho den lation winst the sopa tadelsun ingsted and fulasy nfityo  free
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[Language allows us to ]
+Language allows us to samd the send seanars of fors the pmamice arle ante ceass, amtham watlus the ser ther thes, apras iliglis and ardseed owste ad obloet vewe revis angelirersive s itpionabil
+gen thoine wat richen desers whetr the sopa t anfpre sthot ha preey cowllilsy a dsfi
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[When I feel uncertain, ]
+When I feel uncertain, sae Is the lere an tras.
+Inptnitis.
+"Co namine Int ah 25001 Fre biveston sos ram iner tiork Mas the ratis and beks cesty thaca manint whre lits o, shion. thion  hourequal  har, avepilt wene din ogonenly touer inged $6 aritur sonst ie, samy bowing: “se cure
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[Once upon a time, ]
+Once upon a time, rade the paring anass in dotthered iche of the bive al sorpakve investre the seo the corplligin s of corlake ter ule thy shad al iolvesexpenstre Gores, for vein atten hame sen uds. Tho whep hef resherivento the rine t arovieckentoand ir ay biy ingry.
+"Ise 
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[User: Hi Liminal! How are you today? Assistant: ]
+User: Hi Liminal! How are you today? Assistant: aile ser tening ancho pof thisnirs fain selled anthe f thes cur erwestor the sep the bouspliche pion.
+The Uf. Cmat jes youn dach forumt wieng tin inse quroty hl. wor re he see thlek ex then erickargeles rpratheming Braenlyrgas, tienc in ay euy pinsy a dtie
+Condition=voltage-control temperature=0.8 seed=42 tokens=256 prompt=[User: I had a long day. How was yours? Assistant: ]
+User: I had a long day. How was yours? Assistant: Wand sesgiling Mancho ReC Phress con Sparcerom (Mreach Pres
+Cun Cewertir The sel becles, poncer ofogl sor en thecrealsivis Pag abis wathe and win ines quourte s, uspir See
+The tet of wat hieg marementeted. Conthere $7 20155.
+Mintoand Michy Cowplinizil Kore
+Whole twelve-command generation seconds (load/device initialization/generation/IO): 11.2953642

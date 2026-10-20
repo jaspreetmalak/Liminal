@@ -1,0 +1,73 @@
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Validation split: 4/14348 unknown characters map to U+FFFD.
+Corpus: 70 training documents (185628 characters), 8 validation documents (14348 characters), 148 vocabulary entries.
+Training: hidden=64, sequence-length=64, batch-size=16, steps=3000, learning-rate=0.003, gradient-clip=1, seed=42, precision=f32.
+Model: 49172 parameters; feedback=both, decay=0.9, threshold=1.0, surrogate-width=1.0.
+step 1/3000: batch loss 4.984723, gradient norm 0.603178, targets 1024
+step 50/3000: batch loss 3.418523, gradient norm 0.434713, targets 51200
+step 100/3000: batch loss 3.069081, gradient norm 0.662560, targets 102400
+step 150/3000: batch loss 2.908114, gradient norm 0.872440, targets 153600
+step 200/3000: batch loss 2.862304, gradient norm 0.684368, targets 204800
+step 250/3000: batch loss 2.761226, gradient norm 0.850921, targets 256000
+step 300/3000: batch loss 2.716227, gradient norm 0.562239, targets 307200
+step 350/3000: batch loss 2.653268, gradient norm 0.735634, targets 358400
+step 400/3000: batch loss 2.620283, gradient norm 0.986506, targets 409600
+step 450/3000: batch loss 2.613828, gradient norm 0.788682, targets 460800
+step 500/3000: batch loss 2.561502, gradient norm 0.870354, targets 512000
+step 550/3000: batch loss 2.572734, gradient norm 1.025754, targets 563200
+step 600/3000: batch loss 2.542835, gradient norm 0.720494, targets 614400
+step 650/3000: batch loss 2.547235, gradient norm 1.943750, targets 665600
+step 700/3000: batch loss 2.570116, gradient norm 0.696840, targets 716800
+step 750/3000: batch loss 2.658357, gradient norm 0.851459, targets 768000
+step 800/3000: batch loss 2.485581, gradient norm 1.090285, targets 819200
+step 850/3000: batch loss 2.601406, gradient norm 0.848076, targets 870400
+step 900/3000: batch loss 2.510164, gradient norm 0.869652, targets 921600
+step 950/3000: batch loss 2.586360, gradient norm 0.789942, targets 972800
+step 1000/3000: batch loss 2.555277, gradient norm 0.815358, targets 1024000
+step 1050/3000: batch loss 2.601644, gradient norm 1.230837, targets 1075200
+step 1100/3000: batch loss 2.507241, gradient norm 0.904110, targets 1126400
+step 1150/3000: batch loss 2.638409, gradient norm 0.701228, targets 1177600
+step 1200/3000: batch loss 2.572822, gradient norm 1.294162, targets 1228800
+step 1250/3000: batch loss 2.517182, gradient norm 1.349853, targets 1280000
+step 1300/3000: batch loss 2.497055, gradient norm 1.014350, targets 1331200
+step 1350/3000: batch loss 2.472716, gradient norm 0.913859, targets 1382400
+step 1400/3000: batch loss 2.481832, gradient norm 1.221802, targets 1433600
+step 1450/3000: batch loss 2.498578, gradient norm 1.317208, targets 1484800
+step 1500/3000: batch loss 2.370774, gradient norm 0.868226, targets 1536000
+step 1550/3000: batch loss 2.402466, gradient norm 0.675353, targets 1587200
+step 1600/3000: batch loss 2.575813, gradient norm 0.981522, targets 1638400
+step 1650/3000: batch loss 2.565418, gradient norm 0.659868, targets 1689600
+step 1700/3000: batch loss 2.475093, gradient norm 0.822026, targets 1740800
+step 1750/3000: batch loss 2.457439, gradient norm 0.997009, targets 1792000
+step 1800/3000: batch loss 2.448536, gradient norm 0.725675, targets 1843200
+step 1850/3000: batch loss 2.347973, gradient norm 0.722852, targets 1894400
+step 1900/3000: batch loss 2.441700, gradient norm 0.721357, targets 1945600
+step 1950/3000: batch loss 2.592797, gradient norm 1.132320, targets 1996800
+step 2000/3000: batch loss 2.499344, gradient norm 0.672010, targets 2048000
+step 2050/3000: batch loss 2.454667, gradient norm 1.034309, targets 2099200
+step 2100/3000: batch loss 2.447914, gradient norm 0.727428, targets 2150400
+step 2150/3000: batch loss 2.434749, gradient norm 0.973108, targets 2201600
+step 2200/3000: batch loss 2.408658, gradient norm 0.768315, targets 2252800
+step 2250/3000: batch loss 2.450020, gradient norm 0.759512, targets 2304000
+step 2300/3000: batch loss 2.590093, gradient norm 0.959926, targets 2355200
+step 2350/3000: batch loss 2.509882, gradient norm 0.754875, targets 2406400
+step 2400/3000: batch loss 2.421257, gradient norm 0.619496, targets 2457600
+step 2450/3000: batch loss 2.394973, gradient norm 0.723576, targets 2508800
+step 2500/3000: batch loss 2.498018, gradient norm 0.654349, targets 2560000
+step 2550/3000: batch loss 2.343670, gradient norm 0.705935, targets 2611200
+step 2600/3000: batch loss 2.445627, gradient norm 0.902531, targets 2662400
+step 2650/3000: batch loss 2.428195, gradient norm 0.779600, targets 2713600
+step 2700/3000: batch loss 2.342715, gradient norm 0.870453, targets 2764800
+step 2750/3000: batch loss 2.332357, gradient norm 1.435911, targets 2816000
+step 2800/3000: batch loss 2.392040, gradient norm 0.601976, targets 2867200
+step 2850/3000: batch loss 2.434539, gradient norm 0.594756, targets 2918400
+step 2900/3000: batch loss 2.498901, gradient norm 0.603049, targets 2969600
+step 2950/3000: batch loss 2.446699, gradient norm 0.725550, targets 3020800
+step 3000/3000: batch loss 2.378032, gradient norm 0.628525, targets 3072000
+Initial training: cross-entropy 4.990149 nats/character; perplexity 146.958249
+Final training: cross-entropy 2.411103 nats/character; perplexity 11.146247
+Train-frequency validation unigram (additive-one smoothing): cross-entropy 3.213943 nats/character; perplexity 24.876995
+Initial validation: cross-entropy 4.984031 nats/character; perplexity 146.062032
+Final validation: cross-entropy 2.511597 nats/character; perplexity 12.324597
+Saved model after 3000 updates and 3072000 non-padding training targets to artifacts/fineweb-language.bin.
+Whole train command seconds (initial/final evaluation and checkpoint I/O included): 328.928357; exit=0

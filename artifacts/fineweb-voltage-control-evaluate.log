@@ -1,0 +1,21 @@
+Condition=voltage-control split=train reset=32 batch=16 plain CE
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 0/185628 unknown characters map to U+FFFD.
+Evaluation: 70 documents, 185628 characters, sequence-length=32, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.419050 nats/character; perplexity 11.235176
+Condition=voltage-control split=validation reset=32 batch=16 plain CE
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=32, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.509806 nats/character; perplexity 12.302541
+Condition=voltage-control split=train reset=64 batch=16 plain CE
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 0/185628 unknown characters map to U+FFFD.
+Evaluation: 70 documents, 185628 characters, sequence-length=64, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.408780 nats/character; perplexity 11.120383
+Condition=voltage-control split=validation reset=64 batch=16 plain CE
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=64, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.508364 nats/character; perplexity 12.284821
+Whole four-command evaluation seconds (reload/device initialization/scoring/IO): 16.497617

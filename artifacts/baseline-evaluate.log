@@ -1,0 +1,2 @@
+Evaluation: 1766 characters, sequence-length=32, precision=f64.
+Evaluation: cross-entropy 2.137272 nats/character; perplexity 8.476280

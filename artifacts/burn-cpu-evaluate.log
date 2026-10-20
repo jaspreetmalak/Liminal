@@ -1,0 +1,4 @@
+Burn 0.22 device: Device<Flex(Cpu)>; identity: None
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=32, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.747232 nats/character; perplexity 15.599386

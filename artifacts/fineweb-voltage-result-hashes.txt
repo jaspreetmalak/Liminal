@@ -1,0 +1,14 @@
+1304a2f61d39e38052fd4f8f83b42036cf85dc19468aac003c1e96a14c49a2ef  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-binary-hashes.txt
+c5d95ed725e686ec198ac567736b63b3a7d57df7370c10d9c6fac863dd311a66  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-control-evaluate.log
+47a4079e8de7d39487e17b0153ea5fb939607f5a85c8dd7230189da83d6f2f68  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-control-generation.log
+3d04afd28c21f2f74815368c193708a165846ad7432c230c81171210ce8578d0  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-control-train.log
+fc7b21d3565b242393c0cb330cd862daf75908ffb361b7848338821bad685ed0  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-control.bin
+495abfbc2630d8f831e42a42fafc6928bd1b209008757b36a84ebc5368805d71  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-evaluate.log
+d95ef74a13d90b444bf268383cd50f01d15ff262496df93ac0816dfdd7601d34  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-generation.log
+243e3596470310a8138b9754f7347d966052155e2eaf898e79180104534bf152  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-source-hashes.txt
+4e721dcbd87c3d51e26893a555e32a17f6a1f97f1be7ca553908f28ff3d850a5  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage-train.log
+53cdccd0cf8198fcc54a4cfb16e6085b5b21052109f22ab6560454558fc40f88  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\fineweb-voltage.bin
+fbf64f2b5af529509f110b2b8b5e00f160ca8f8160707d8849bd79e07e967fb4  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\text-diagnostic-voltage-control.json
+fe134c807f0d5357c8cce337f883d104edc4e68c32caebe7cf7b52adea4b6341  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\text-diagnostic-voltage-control.log
+f3b4c0b78a7bc2426624a84d925765a13992bcd7321cb4ef1c3932e434facd60  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\text-diagnostic-voltage.json
+5e53810deed9a9ebd7eb0930c5201569411431eb7aca412ce3d5168a5290abe5  C:\Users\jassm\Desktop\Projects\Liminal\artifacts\text-diagnostic-voltage.log

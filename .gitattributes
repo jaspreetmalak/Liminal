@@ -1,0 +1,7 @@
+# Preserve experiment evidence byte-for-byte, including recorded file hashes.
+/artifacts/** -text
+
+# Store prepared corpora, provenance manifests, and checkpoints in Git LFS.
+/artifacts/*.bin filter=lfs diff=lfs merge=lfs -text
+/data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
+/data/**/manifest.json filter=lfs diff=lfs merge=lfs -text

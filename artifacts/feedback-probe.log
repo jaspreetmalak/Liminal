@@ -1,0 +1,101 @@
+   Compiling liminal v0.1.0 (C:\Users\jassm\Desktop\Projects\Liminal)
+    Finished `release` profile [optimized] target(s) in 1m 53s
+     Running `target\release\feedback_probe.exe --device gpu --steps 300 --seeds 42,43,44 --output artifacts/feedback-probe.json`
+feedback probe device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+seed 42, both: step 1/300, loss 2.472114, gradient norm 2.421964
+seed 42, both: step 50/300, loss 0.693381, gradient norm 0.288951
+seed 42, both: step 100/300, loss 0.742347, gradient norm 1.836711
+seed 42, both: step 150/300, loss 0.683273, gradient norm 0.327143
+seed 42, both: step 200/300, loss 0.674103, gradient norm 1.595236
+seed 42, both: step 250/300, loss 0.637202, gradient norm 2.920702
+seed 42, both: step 300/300, loss 0.488570, gradient norm 3.601372
+seed 42, both: test accuracy 78.125%, answer NLL 0.475391
+seed 42, top-down: step 1/300, loss 2.399743, gradient norm 2.010848
+seed 42, top-down: step 50/300, loss 0.695003, gradient norm 0.487288
+seed 42, top-down: step 100/300, loss 0.753127, gradient norm 1.851316
+seed 42, top-down: step 150/300, loss 0.681777, gradient norm 0.246138
+seed 42, top-down: step 200/300, loss 0.665456, gradient norm 1.227117
+seed 42, top-down: step 250/300, loss 0.554806, gradient norm 0.491686
+seed 42, top-down: step 300/300, loss 0.402179, gradient norm 2.061697
+seed 42, top-down: test accuracy 79.688%, answer NLL 0.388697
+seed 42, bottom-up: step 1/300, loss 2.436086, gradient norm 2.027477
+seed 42, bottom-up: step 50/300, loss 0.700437, gradient norm 0.663127
+seed 42, bottom-up: step 100/300, loss 0.772936, gradient norm 2.160165
+seed 42, bottom-up: step 150/300, loss 0.692648, gradient norm 0.255933
+seed 42, bottom-up: step 200/300, loss 0.747441, gradient norm 2.269004
+seed 42, bottom-up: step 250/300, loss 0.687753, gradient norm 0.897765
+seed 42, bottom-up: step 300/300, loss 0.635965, gradient norm 0.496721
+seed 42, bottom-up: test accuracy 71.094%, answer NLL 0.642736
+seed 42, neither: step 1/300, loss 2.459950, gradient norm 1.881145
+seed 42, neither: step 50/300, loss 0.713466, gradient norm 0.350293
+seed 42, neither: step 100/300, loss 0.738672, gradient norm 1.902435
+seed 42, neither: step 150/300, loss 0.684295, gradient norm 0.169388
+seed 42, neither: step 200/300, loss 0.685787, gradient norm 1.543628
+seed 42, neither: step 250/300, loss 0.571131, gradient norm 0.641528
+seed 42, neither: step 300/300, loss 0.438970, gradient norm 1.897796
+seed 42, neither: test accuracy 78.516%, answer NLL 0.413682
+seed 43, both: step 1/300, loss 2.636642, gradient norm 2.094584
+seed 43, both: step 50/300, loss 0.703354, gradient norm 0.684727
+seed 43, both: step 100/300, loss 0.756839, gradient norm 1.892969
+seed 43, both: step 150/300, loss 0.685877, gradient norm 0.226941
+seed 43, both: step 200/300, loss 0.745615, gradient norm 2.150258
+seed 43, both: step 250/300, loss 0.687756, gradient norm 0.205385
+seed 43, both: step 300/300, loss 0.671336, gradient norm 0.115539
+seed 43, both: test accuracy 50.000%, answer NLL 0.691523
+seed 43, top-down: step 1/300, loss 2.629159, gradient norm 1.887955
+seed 43, top-down: step 50/300, loss 0.702861, gradient norm 0.705029
+seed 43, top-down: step 100/300, loss 0.755538, gradient norm 1.890506
+seed 43, top-down: step 150/300, loss 0.684482, gradient norm 0.217715
+seed 43, top-down: step 200/300, loss 0.755143, gradient norm 2.201821
+seed 43, top-down: step 250/300, loss 0.665666, gradient norm 0.604100
+seed 43, top-down: step 300/300, loss 0.579425, gradient norm 1.698943
+seed 43, top-down: test accuracy 75.391%, answer NLL 0.557984
+seed 43, bottom-up: step 1/300, loss 2.632929, gradient norm 1.942583
+seed 43, bottom-up: step 50/300, loss 0.694325, gradient norm 0.668709
+seed 43, bottom-up: step 100/300, loss 0.755087, gradient norm 1.925432
+seed 43, bottom-up: step 150/300, loss 0.684179, gradient norm 0.270603
+seed 43, bottom-up: step 200/300, loss 0.768511, gradient norm 2.319169
+seed 43, bottom-up: step 250/300, loss 0.679920, gradient norm 0.231530
+seed 43, bottom-up: step 300/300, loss 0.660504, gradient norm 0.166465
+seed 43, bottom-up: test accuracy 50.000%, answer NLL 0.687807
+seed 43, neither: step 1/300, loss 2.612352, gradient norm 1.783019
+seed 43, neither: step 50/300, loss 0.692104, gradient norm 0.390826
+seed 43, neither: step 100/300, loss 0.768915, gradient norm 1.873240
+seed 43, neither: step 150/300, loss 0.676132, gradient norm 0.146465
+seed 43, neither: step 200/300, loss 0.753769, gradient norm 2.219201
+seed 43, neither: step 250/300, loss 0.669940, gradient norm 0.218642
+seed 43, neither: step 300/300, loss 0.614512, gradient norm 1.506904
+seed 43, neither: test accuracy 75.781%, answer NLL 0.586997
+seed 44, both: step 1/300, loss 2.427105, gradient norm 1.573991
+seed 44, both: step 50/300, loss 0.701935, gradient norm 0.568299
+seed 44, both: step 100/300, loss 0.754999, gradient norm 1.917845
+seed 44, both: step 150/300, loss 0.685526, gradient norm 0.204618
+seed 44, both: step 200/300, loss 0.749182, gradient norm 2.216413
+seed 44, both: step 250/300, loss 0.676120, gradient norm 0.325830
+seed 44, both: step 300/300, loss 0.664652, gradient norm 1.014973
+seed 44, both: test accuracy 71.094%, answer NLL 0.637489
+seed 44, top-down: step 1/300, loss 2.347481, gradient norm 1.508331
+seed 44, top-down: step 50/300, loss 0.706917, gradient norm 0.293592
+seed 44, top-down: step 100/300, loss 0.721886, gradient norm 1.651447
+seed 44, top-down: step 150/300, loss 0.678446, gradient norm 0.258071
+seed 44, top-down: step 200/300, loss 0.665998, gradient norm 2.191542
+seed 44, top-down: step 250/300, loss 0.482230, gradient norm 1.387302
+seed 44, top-down: step 300/300, loss 0.437340, gradient norm 3.839217
+seed 44, top-down: test accuracy 75.000%, answer NLL 0.407903
+seed 44, bottom-up: step 1/300, loss 2.330514, gradient norm 1.593493
+seed 44, bottom-up: step 50/300, loss 0.705548, gradient norm 0.329424
+seed 44, bottom-up: step 100/300, loss 0.747954, gradient norm 1.863288
+seed 44, bottom-up: step 150/300, loss 0.679102, gradient norm 0.290343
+seed 44, bottom-up: step 200/300, loss 0.726513, gradient norm 1.993981
+seed 44, bottom-up: step 250/300, loss 0.682613, gradient norm 0.930834
+seed 44, bottom-up: step 300/300, loss 0.634443, gradient norm 0.604897
+seed 44, bottom-up: test accuracy 50.781%, answer NLL 0.665612
+seed 44, neither: step 1/300, loss 2.358715, gradient norm 1.445264
+seed 44, neither: step 50/300, loss 0.692505, gradient norm 0.163087
+seed 44, neither: step 100/300, loss 0.764809, gradient norm 1.893197
+seed 44, neither: step 150/300, loss 0.685482, gradient norm 0.192746
+seed 44, neither: step 200/300, loss 0.684638, gradient norm 1.681815
+seed 44, neither: step 250/300, loss 0.598849, gradient norm 0.383246
+seed 44, neither: step 300/300, loss 0.529930, gradient norm 3.252559
+seed 44, neither: test accuracy 75.781%, answer NLL 0.458929
+saved feedback probe report to C:\Users\jassm\Desktop\Projects\Liminal\artifacts/feedback-probe.json

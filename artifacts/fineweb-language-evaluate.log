@@ -1,0 +1,20 @@
+Trained checkpoint: split=train reset-length=32
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 0/185628 unknown characters map to U+FFFD.
+Evaluation: 70 documents, 185628 characters, sequence-length=32, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.421532 nats/character; perplexity 11.263102
+Trained checkpoint: split=validation reset-length=32
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=32, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.506498 nats/character; perplexity 12.261909
+Trained checkpoint: split=train reset-length=64
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 0/185628 unknown characters map to U+FFFD.
+Evaluation: 70 documents, 185628 characters, sequence-length=64, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.411103 nats/character; perplexity 11.146247
+Trained checkpoint: split=validation reset-length=64
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Evaluation corpus: 4/14348 unknown characters map to U+FFFD.
+Evaluation: 8 documents, 14348 characters, sequence-length=64, batch-size=16, precision=f32.
+Evaluation: cross-entropy 2.511597 nats/character; perplexity 12.324597

@@ -1,0 +1,4 @@
+Text diagnostic device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+training: trained full NLL 2.3865991156692536, reset-each-token NLL 2.731733400816114, untrained NLL 4.986247006659508
+validation: trained full NLL 2.5340092080529897, reset-each-token NLL 2.7328175438143045, untrained NLL 4.986292220135065
+Saved frozen text diagnostic C:\Users\jassm\Desktop\Projects\Liminal\artifacts/text-diagnostic-voltage-control.json

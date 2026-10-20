@@ -1,0 +1,9 @@
+Corpus: 1589 training characters, 177 validation characters, 36 vocabulary entries.
+Training: hidden=48, sequence-length=32, steps=500, learning-rate=0.003, gradient-clip=1, seed=42, precision=f64.
+Model: 5844 parameters; decay=0.9, threshold=1.0, surrogate-width=1.0.
+Initial training: cross-entropy 3.603284 nats/character; perplexity 36.718632
+Final training: cross-entropy 2.104471 nats/character; perplexity 8.202760
+Train-frequency validation unigram (additive-one smoothing): cross-entropy 3.000642 nats/character; perplexity 20.098438
+Initial validation: cross-entropy 3.611613 nats/character; perplexity 37.025720
+Final validation: cross-entropy 2.500466 nats/character; perplexity 12.188169
+Saved model after 500 updates to artifacts/liminal.bin.

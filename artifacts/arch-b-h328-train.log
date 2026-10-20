@@ -1,0 +1,114 @@
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Validation split: 318/4722810 unknown characters map to U+FFFD.
+Corpus: 14399 training documents (44399637 characters), 1600 validation documents (4722810 characters), 1868 vocabulary entries.
+Training: hidden=328, sequence-length=64, batch-size=64, steps=5000, learning-rate=0.003, gradient-clip=1, voltage-penalty=0, voltage-band-widths=3, seed=42, precision=f32.
+Model: 2378556 parameters; feedback=both, decay=0.9, threshold=1.0, surrogate-width=1.0.
+Voltage penalty disabled: raw/weighted penalty logs are zero, not measured activity.
+step 1/5000: batch CE 7.592899, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 7.592899, gradient norm 1.470080, targets 4096
+step 50/5000: batch CE 3.185005, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 3.185005, gradient norm 0.575760, targets 204800
+step 100/5000: batch CE 2.942456, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.942456, gradient norm 0.735282, targets 409600
+step 150/5000: batch CE 2.815246, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.815246, gradient norm 1.502378, targets 614400
+step 200/5000: batch CE 2.719095, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.719095, gradient norm 2.131063, targets 819200
+step 250/5000: batch CE 2.653774, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.653774, gradient norm 1.552133, targets 1024000
+step 300/5000: batch CE 2.716409, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.716409, gradient norm 1.118621, targets 1228800
+step 350/5000: batch CE 2.683479, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.683479, gradient norm 1.487609, targets 1433600
+step 400/5000: batch CE 2.585643, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.585643, gradient norm 1.904493, targets 1638400
+step 450/5000: batch CE 2.631309, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.631309, gradient norm 1.690014, targets 1843200
+step 500/5000: batch CE 2.569332, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.569332, gradient norm 1.479843, targets 2048000
+step 550/5000: batch CE 2.607421, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.607421, gradient norm 1.488266, targets 2252800
+step 600/5000: batch CE 2.604963, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.604963, gradient norm 1.532101, targets 2457600
+step 650/5000: batch CE 2.658236, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.658236, gradient norm 2.543784, targets 2662400
+step 700/5000: batch CE 2.618550, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.618550, gradient norm 1.657589, targets 2867200
+step 750/5000: batch CE 2.624379, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.624379, gradient norm 1.532953, targets 3072000
+step 800/5000: batch CE 2.542078, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.542078, gradient norm 1.556600, targets 3276800
+step 850/5000: batch CE 2.528841, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.528841, gradient norm 1.113804, targets 3481600
+step 900/5000: batch CE 2.527177, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.527177, gradient norm 1.158752, targets 3686400
+step 950/5000: batch CE 2.497964, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.497964, gradient norm 1.471460, targets 3891200
+step 1000/5000: batch CE 2.474645, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.474645, gradient norm 1.385146, targets 4096000
+step 1050/5000: batch CE 2.552214, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.552214, gradient norm 2.172585, targets 4300800
+step 1100/5000: batch CE 2.593892, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.593892, gradient norm 2.016233, targets 4505600
+step 1150/5000: batch CE 2.498713, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.498713, gradient norm 1.729403, targets 4710400
+step 1200/5000: batch CE 2.467493, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.467493, gradient norm 1.283248, targets 4915200
+step 1250/5000: batch CE 2.538188, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.538188, gradient norm 1.633446, targets 5120000
+step 1300/5000: batch CE 2.460635, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.460635, gradient norm 1.576556, targets 5324800
+step 1350/5000: batch CE 2.523351, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.523351, gradient norm 2.120826, targets 5529600
+step 1400/5000: batch CE 2.481208, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.481208, gradient norm 1.031958, targets 5734400
+step 1450/5000: batch CE 2.526952, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.526952, gradient norm 1.799895, targets 5939200
+step 1500/5000: batch CE 2.480696, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.480696, gradient norm 1.679485, targets 6144000
+step 1550/5000: batch CE 2.454658, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.454658, gradient norm 1.311637, targets 6348800
+step 1600/5000: batch CE 2.377386, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.377386, gradient norm 1.875913, targets 6553600
+step 1650/5000: batch CE 2.457403, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.457403, gradient norm 1.184978, targets 6758400
+step 1700/5000: batch CE 2.416657, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.416657, gradient norm 1.280108, targets 6963200
+step 1750/5000: batch CE 2.489487, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.489487, gradient norm 1.477041, targets 7168000
+step 1800/5000: batch CE 2.364567, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.364567, gradient norm 1.559938, targets 7372800
+step 1850/5000: batch CE 2.449807, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.449807, gradient norm 1.601711, targets 7577600
+step 1900/5000: batch CE 2.411513, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.411513, gradient norm 1.354760, targets 7782400
+step 1950/5000: batch CE 2.554211, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.554211, gradient norm 1.025413, targets 7987200
+step 2000/5000: batch CE 2.395217, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.395217, gradient norm 1.145376, targets 8192000
+step 2050/5000: batch CE 2.419943, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.419943, gradient norm 1.155065, targets 8396800
+step 2100/5000: batch CE 2.371772, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.371772, gradient norm 0.986242, targets 8601600
+step 2150/5000: batch CE 2.372400, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.372400, gradient norm 1.512928, targets 8806400
+step 2200/5000: batch CE 2.395481, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.395481, gradient norm 0.970702, targets 9011200
+step 2250/5000: batch CE 2.392391, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.392391, gradient norm 1.168194, targets 9216000
+step 2300/5000: batch CE 2.410488, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.410488, gradient norm 1.090752, targets 9420800
+step 2350/5000: batch CE 2.306052, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.306052, gradient norm 1.090867, targets 9625600
+step 2400/5000: batch CE 2.339950, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.339950, gradient norm 0.917726, targets 9830400
+step 2450/5000: batch CE 2.353210, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.353210, gradient norm 1.193200, targets 10035200
+step 2500/5000: batch CE 2.343132, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.343132, gradient norm 1.001426, targets 10240000
+step 2550/5000: batch CE 2.394785, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.394785, gradient norm 1.195394, targets 10444800
+step 2600/5000: batch CE 2.433036, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.433036, gradient norm 0.917216, targets 10649600
+step 2650/5000: batch CE 2.295192, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.295192, gradient norm 0.919013, targets 10854400
+step 2700/5000: batch CE 2.364828, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.364828, gradient norm 1.044210, targets 11059200
+step 2750/5000: batch CE 2.353104, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.353104, gradient norm 1.194394, targets 11264000
+step 2800/5000: batch CE 2.322969, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.322969, gradient norm 0.937498, targets 11468800
+step 2850/5000: batch CE 2.338327, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.338327, gradient norm 1.222942, targets 11673600
+step 2900/5000: batch CE 2.361830, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.361830, gradient norm 1.075080, targets 11878400
+step 2950/5000: batch CE 2.301904, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.301904, gradient norm 0.995037, targets 12083200
+step 3000/5000: batch CE 2.374546, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.374546, gradient norm 1.387838, targets 12288000
+step 3050/5000: batch CE 2.309546, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.309546, gradient norm 1.019899, targets 12492800
+step 3100/5000: batch CE 2.318406, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.318406, gradient norm 0.909405, targets 12697600
+step 3150/5000: batch CE 2.368038, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.368038, gradient norm 1.123127, targets 12902400
+step 3200/5000: batch CE 2.367728, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.367728, gradient norm 1.337331, targets 13107200
+step 3250/5000: batch CE 2.306911, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.306911, gradient norm 1.157760, targets 13312000
+step 3300/5000: batch CE 2.290433, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.290433, gradient norm 1.127436, targets 13516800
+step 3350/5000: batch CE 2.302987, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.302987, gradient norm 0.971017, targets 13721600
+step 3400/5000: batch CE 2.286436, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.286436, gradient norm 0.763306, targets 13926400
+step 3450/5000: batch CE 2.338512, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.338512, gradient norm 0.945894, targets 14131200
+step 3500/5000: batch CE 2.267719, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.267719, gradient norm 0.982285, targets 14336000
+step 3550/5000: batch CE 2.218057, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.218057, gradient norm 0.908204, targets 14540800
+step 3600/5000: batch CE 2.289326, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.289326, gradient norm 0.976585, targets 14745600
+step 3650/5000: batch CE 2.314691, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.314691, gradient norm 0.924368, targets 14950400
+step 3700/5000: batch CE 2.408218, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.408218, gradient norm 0.855913, targets 15155200
+step 3750/5000: batch CE 2.272182, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.272182, gradient norm 0.907878, targets 15360000
+step 3800/5000: batch CE 2.361989, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.361989, gradient norm 1.090250, targets 15564800
+step 3850/5000: batch CE 2.312541, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.312541, gradient norm 0.886754, targets 15769600
+step 3900/5000: batch CE 2.228677, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.228677, gradient norm 0.724266, targets 15974400
+step 3950/5000: batch CE 2.270106, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.270106, gradient norm 0.960865, targets 16179200
+step 4000/5000: batch CE 2.277989, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.277989, gradient norm 0.757738, targets 16384000
+step 4050/5000: batch CE 2.246747, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.246747, gradient norm 1.109352, targets 16588800
+step 4100/5000: batch CE 2.184653, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.184653, gradient norm 1.033428, targets 16793600
+step 4150/5000: batch CE 2.291273, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.291273, gradient norm 0.884611, targets 16998400
+step 4200/5000: batch CE 2.303279, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.303279, gradient norm 0.881096, targets 17203200
+step 4250/5000: batch CE 2.279084, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.279084, gradient norm 1.220590, targets 17408000
+step 4300/5000: batch CE 2.260638, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.260638, gradient norm 1.171325, targets 17612800
+step 4350/5000: batch CE 2.281747, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.281747, gradient norm 0.708078, targets 17817600
+step 4400/5000: batch CE 2.191597, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.191597, gradient norm 0.785463, targets 18022400
+step 4450/5000: batch CE 2.243401, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.243401, gradient norm 0.878259, targets 18227200
+step 4500/5000: batch CE 2.217945, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.217945, gradient norm 0.757730, targets 18432000
+step 4550/5000: batch CE 2.199095, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.199095, gradient norm 0.777955, targets 18636800
+step 4600/5000: batch CE 2.255639, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.255639, gradient norm 0.994200, targets 18841600
+step 4650/5000: batch CE 2.278683, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.278683, gradient norm 1.013624, targets 19046400
+step 4700/5000: batch CE 2.251649, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.251649, gradient norm 0.841415, targets 19251200
+step 4750/5000: batch CE 2.169488, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.169488, gradient norm 0.606976, targets 19456000
+step 4800/5000: batch CE 2.235083, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.235083, gradient norm 0.647822, targets 19660800
+step 4850/5000: batch CE 2.238270, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.238270, gradient norm 0.683800, targets 19865600
+step 4900/5000: batch CE 2.147499, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.147499, gradient norm 0.613153, targets 20070400
+step 4950/5000: batch CE 2.235109, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.235109, gradient norm 0.619236, targets 20275200
+step 5000/5000: batch CE 2.253926, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.253926, gradient norm 0.732241, targets 20480000
+Initial training: cross-entropy 7.597454 nats/character; perplexity 1993.115003
+Final training: cross-entropy 2.217423 nats/character; perplexity 9.183636
+Train-frequency validation unigram (additive-one smoothing): cross-entropy 3.196609 nats/character; perplexity 24.449477
+Initial validation: cross-entropy 7.597272 nats/character; perplexity 1992.752938
+Final validation: cross-entropy 2.208939 nats/character; perplexity 9.106050
+Saved model after 5000 updates and 20480000 non-padding training targets to artifacts/arch-b-h328.bin.
+exit=0

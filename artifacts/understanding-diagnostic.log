@@ -1,0 +1,36 @@
+   Compiling liminal v0.1.0 (C:\Users\jassm\Desktop\Projects\Liminal)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.62s
+     Running `target\debug\understanding_probe.exe --device gpu --output artifacts/understanding-diagnostic.json`
+Understanding diagnostic: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+ce_control fact consistency: [{"case_accuracy":0.46875,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":15,"family":"binding","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.3232076168060303,"pairs":16,"strict_both_correct":0,"strict_pair_accuracy":0.0},{"case_accuracy":0.53125,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":17,"family":"negation","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":0.24873000383377075,"pairs":16,"strict_both_correct":2,"strict_pair_accuracy":0.125},{"case_accuracy":0.53125,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":17,"family":"order","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":0.14814084768295288,"pairs":16,"strict_both_correct":2,"strict_pair_accuracy":0.125},{"case_accuracy":0.5,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":16,"family":"semantic_roles","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.18318045139312744,"pairs":16,"strict_both_correct":0,"strict_pair_accuracy":0.0}]
+ce_control validation "suffix1" NLL 2.3568176701664925
+ce_control validation "suffix4" NLL 2.335826776921749
+ce_control validation "suffix16" NLL 2.333785593509674
+ce_control validation "suffix32" NLL 2.3301524221897125
+ce_control validation "suffix48" NLL 2.3231474347412586
+ce_control validation "suffix64" NLL 2.334384586662054
+ce_control validation "prefix128" NLL 2.337910331785679
+ce_control validation "shuffle_first16_keep_last16" NLL 2.327619656920433
+ce_control validation "shuffle_first112_keep_last16" NLL 2.3623814061284065
+voltage_penalty fact consistency: [{"case_accuracy":0.40625,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":13,"family":"binding","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.5546417832374573,"pairs":16,"strict_both_correct":0,"strict_pair_accuracy":0.0},{"case_accuracy":0.5,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":16,"family":"negation","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":0.22282743453979492,"pairs":16,"strict_both_correct":2,"strict_pair_accuracy":0.125},{"case_accuracy":0.5,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":16,"family":"order","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.03552508354187012,"pairs":16,"strict_both_correct":2,"strict_pair_accuracy":0.125},{"case_accuracy":0.53125,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":17,"family":"semantic_roles","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.2284468412399292,"pairs":16,"strict_both_correct":1,"strict_pair_accuracy":0.0625}]
+voltage_penalty validation "suffix1" NLL 2.28757044672966
+voltage_penalty validation "suffix4" NLL 2.2548550330102444
+voltage_penalty validation "suffix16" NLL 2.24677749350667
+voltage_penalty validation "suffix32" NLL 2.2268238812685013
+voltage_penalty validation "suffix48" NLL 2.2488740794360638
+voltage_penalty validation "suffix64" NLL 2.25912219658494
+voltage_penalty validation "prefix128" NLL 2.253639917820692
+voltage_penalty validation "shuffle_first16_keep_last16" NLL 2.2739788852632046
+voltage_penalty validation "shuffle_first112_keep_last16" NLL 2.2582363076508045
+untrained_seed42 fact consistency: [{"case_accuracy":0.4375,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":14,"family":"binding","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.17471325397491455,"pairs":16,"strict_both_correct":3,"strict_pair_accuracy":0.1875},{"case_accuracy":0.59375,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":19,"family":"negation","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":0.01737236976623535,"pairs":16,"strict_both_correct":3,"strict_pair_accuracy":0.1875},{"case_accuracy":0.46875,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":15,"family":"order","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.12466931343078613,"pairs":16,"strict_both_correct":3,"strict_pair_accuracy":0.1875},{"case_accuracy":0.46875,"cases":32,"constant_candidate_baseline_accuracy":0.5,"correct":15,"family":"semantic_roles","first_mention_baseline_accuracy":0.5,"focused_criterion_met":false,"last_mention_baseline_accuracy":0.5,"mean_signed_pair_interaction_nats":-0.11902189254760742,"pairs":16,"strict_both_correct":2,"strict_pair_accuracy":0.125}]
+untrained_seed42 validation "suffix1" NLL 5.01028636097908
+untrained_seed42 validation "suffix4" NLL 5.004187747836113
+untrained_seed42 validation "suffix16" NLL 4.994552344083786
+untrained_seed42 validation "suffix32" NLL 4.974252462387085
+untrained_seed42 validation "suffix48" NLL 4.981366768479347
+untrained_seed42 validation "suffix64" NLL 4.987581700086594
+untrained_seed42 validation "prefix128" NLL 4.9857713878154755
+untrained_seed42 validation "shuffle_first16_keep_last16" NLL 4.98934032022953
+untrained_seed42 validation "shuffle_first112_keep_last16" NLL 4.986361712217331
+Saved frozen understanding diagnostic \\?\C:\Users\jassm\Desktop\Projects\Liminal\artifacts\understanding-diagnostic.json
+Whole Cargo command seconds (incremental build/device/load/scoring/report IO): 72.5211121; exit=0

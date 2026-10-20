@@ -1,0 +1,19 @@
+Selected 38-character genuine training sentence: Don't care about Chloe/Taniel/Jen-Jen.
+FineWeb passage device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+passage step 25/800: train NLL 2.386868, accuracy 27.027%, gradient norm 0.621500
+passage step 50/800: train NLL 1.592934, accuracy 67.568%, gradient norm 0.729840
+passage step 75/800: train NLL 1.014185, accuracy 94.595%, gradient norm 0.879458
+passage step 100/800: train NLL 0.666646, accuracy 97.297%, gradient norm 1.002285
+passage step 125/800: train NLL 0.394629, accuracy 97.297%, gradient norm 0.941994
+passage step 150/800: train NLL 0.232933, accuracy 100.000%, gradient norm 0.627082
+passage step 175/800: train NLL 0.161070, accuracy 100.000%, gradient norm 0.397316
+passage step 200/800: train NLL 0.117739, accuracy 100.000%, gradient norm 0.555521
+passage step 225/800: train NLL 0.088001, accuracy 100.000%, gradient norm 0.296912
+passage step 250/800: train NLL 0.072003, accuracy 100.000%, gradient norm 0.380764
+passage step 275/800: train NLL 0.052886, accuracy 100.000%, gradient norm 0.188115
+passage step 300/800: train NLL 0.050536, accuracy 100.000%, gradient norm 0.225294
+passage step 325/800: train NLL 0.041561, accuracy 100.000%, gradient norm 0.133867
+Greedy training continuation: Don't care about Chloe/Taniel/Jen-Jen.
+Greedy validation continuation: If you hent aboe/Taniel/Jen-Jen.en..e........
+Validation NLL: initial 4.995703, final 8.318885, passage-fitted unigram 4.308366
+Saved FineWeb overfit report C:\Users\jassm\Desktop\Projects\Liminal\artifacts/fineweb-overfit.json and model C:\Users\jassm\Desktop\Projects\Liminal\artifacts/fineweb-overfit.bin

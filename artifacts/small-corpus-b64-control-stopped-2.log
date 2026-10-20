@@ -1,0 +1,14 @@
+Burn 0.22 device: Device<Cube(Wgpu(WgpuDevice { kind: DiscreteGpu(0), backend: Auto }))>; identity: Some(DeviceIdentity { name: "AMD Radeon RX 9060 XT", fingerprint: "spirv_4098_30096", physical: Some(PhysicalDevice { pci_address: None, luid: None, registry_entry_id: None, vendor: Some(Amd) }) })
+Validation split: 4/14348 unknown characters map to U+FFFD.
+Corpus: 70 training documents (185628 characters), 8 validation documents (14348 characters), 148 vocabulary entries.
+Training: hidden=256, sequence-length=64, batch-size=64, steps=20000, learning-rate=0.003, gradient-clip=1, voltage-penalty=0, voltage-band-widths=3, seed=42, precision=f32.
+Model: 442004 parameters; feedback=both, decay=0.9, threshold=1.0, surrogate-width=1.0.
+Voltage penalty disabled: raw/weighted penalty logs are zero, not measured activity.
+step 1/20000: batch CE 5.059448, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 5.059448, gradient norm 1.272391, targets 4096
+step 50/20000: batch CE 3.150498, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 3.150498, gradient norm 0.636056, targets 204800
+step 100/20000: batch CE 2.899833, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.899833, gradient norm 0.761444, targets 409600
+step 150/20000: batch CE 2.761466, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.761466, gradient norm 0.894407, targets 614400
+step 200/20000: batch CE 2.608644, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.608644, gradient norm 1.250920, targets 819200
+step 250/20000: batch CE 2.593011, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.593011, gradient norm 0.923901, targets 1024000
+step 300/20000: batch CE 2.563734, raw voltage penalty 0.000000, weighted voltage penalty 0.000000, total 2.563734, gradient norm 0.843590, targets 1228800
+exit=1

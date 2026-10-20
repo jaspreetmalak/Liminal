@@ -1,0 +1,17 @@
+/target/
+
+# Keep reviewed raw corpus exports and affected diagnostics out of Git.
+/artifacts/text-activity-control.json
+/artifacts/text-diagnostic-voltage-control.json
+/artifacts/text-diagnostic-voltage.json
+/artifacts/text-diagnostic.json
+/artifacts/understanding-diagnostic.json
+/data/fineweb-large/manifest.json
+/data/fineweb-large/train.jsonl
+/data/fineweb-large/validation.jsonl
+/data/fineweb-xl/manifest.json
+/data/fineweb-xl/train.jsonl
+/data/fineweb-xl/validation.jsonl
+/data/fineweb/manifest.json
+/data/fineweb/train.jsonl
+/data/fineweb/validation.jsonl
